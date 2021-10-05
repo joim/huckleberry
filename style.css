@@ -10,3 +10,80 @@ body {
 }
 
 /* Add styles here! */
+body {
+  //background: url('docs/huckleberry-desktop.png') center top;
+  //background-size: calc(2350px /2);
+}
+
+.max-width-wrapper {
+  max-width: 720px;
+  margin: 0 auto; 
+}
+
+.intro-chunk {
+  margin: 16px 0 8px;
+  padding: 32px;
+}
+
+.intro-chunk h1 {
+  margin: 64px 0;
+  font-size: 2rem;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  max-width: 400px;
+  margin: 24px 0;
+}
+
+.intro-chunk p strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0deg, 0%, 40%); 
+  padding: 88px 0;
+}
+
+.card {
+  background: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 40%); 
+  padding: 32px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  line-height: 1.6;
+  margin: -24px 0 0 -48px;
+  max-width: max-content;
+  margin: -24px 0 0 -48px;
+  padding: 16px 48px;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 24px 0 0;
+}
+
+@media (min-width: 300px) {
+
+  .intro-chunk h1 {
+    font-size: 2rem;
+  }
+
+  .intro-chunk p {
+    font-size: 1.5rem;
+  }
+  .indented-heading { 
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 1.25rem;
+  }
+
+}
